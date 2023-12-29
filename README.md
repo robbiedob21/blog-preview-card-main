@@ -12,7 +12,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -31,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/robbiedob21/blog-preview-card-main](https://github.com/robbiedob21/blog-preview-card-main)
-- Live Site URL: []
+- Live Site URL: [https://robbiedob21.github.io/blog-preview-card-main/](https://robbiedob21.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -43,11 +42,12 @@ Users should be able to:
 
 ### What I learned
 
-
+- I have practiced using custom properties after watching a Kevin Powell video using them.
+- I also learned how to use github to share my projects
 
 ### Continued development
 
-
+- I need to continue to improve working with images in html/css.
 
 ## Author
 
@@ -55,4 +55,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-My Wife
+- [Kevin Powell](https://www.youtube.com/kevinpowell)
+- My Wife
