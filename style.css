@@ -1,0 +1,117 @@
+/*
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800 
+*/
+
+:root {
+    --clr-primary: hsl(47, 88%, 63%);
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(0, 0%, 50%);
+    --clr-neutral-900: hsl(0, 0%, 7%);
+
+    --ff-sans: 'Figtree', sans-serif;
+
+    --fw-normal: 600;
+    --fw-bold: 800;
+
+    --fs-100: 0.875rem;
+    --fs-900: 1.5rem;
+}
+
+html{
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-normal);
+}
+
+body {
+    background-color: var(--clr-primary);
+}
+
+h1,
+h2,
+h3 {
+    margin-block: 0.5rem;
+}
+
+.card {
+    margin-inline: auto;
+    border: 2px solid var(--clr-neutral-900);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0.75rem 0.75rem var(--clr-neutral-900);
+    background-color: var(--clr-neutral-100);
+    max-width: 20rem;
+}
+
+.illustration {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.category {
+    background-color: var(--clr-primary);
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    font-size: var(--fs-100);
+    font-weight: var(--fw-bold);
+    width: fit-content;
+}
+
+.publish-date {
+    font-size: var(--fs-100);
+}
+
+.course-title {
+    font-size: var(--fs-900);
+    font-weight: var(--fw-bold);
+}
+
+.course-title:hover {
+    color: var(--clr-primary);
+    cursor: pointer;
+}
+
+.card p {
+    color: var(--clr-neutral-400)
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 2.5rem;
+}
+
+.author-name {
+    padding-left: 1rem;
+}
